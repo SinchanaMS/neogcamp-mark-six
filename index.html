@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Speak</title>
+    <style>
+        body {
+            background-color: yellow;
+            background-image: url(images/banana.jpg);
+        }
+
+        h1 {
+            padding: 3rem 4rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            text-align: center;
+        }
+
+        textarea {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            padding: 2rem;
+            margin: 2rem;
+            display: block;
+            border-radius: 1rem;
+
+
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            padding: 2rem;
+            margin: none;
+            display: block;
+            background-color: white;
+            border-radius: 1rem;
+
+        }
+
+        #btn-translate {
+
+            display: block;
+            margin-top: 1rem;
+            padding: 1rem 3rem;
+            font-size: medium;
+            background-color: yellow;
+            border-radius: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .container {
+            margin: auto;
+        }
+
+        .container-center {
+            margin: auto;
+            text-align: center;
+            padding: 2rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+
 </head>
+
 <body>
-    <h1>Hellooo! Talk in Bananaaaa!</h1>
-</body>
-</html>
+    <h1>Bananananana!!!</h1>
+    <textarea id="txt-input" class="container"
+        placeholder="Please drop your text in English here. We'll translate it to Banana!"></textarea>
+
+    <button id="btn-translate" class="container">Banana it!!</button>
+
+    <div style="font-size: larger; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin: 4rem 0rem 1rem 0rem; text-align: center;"
+        class="container">Here's your translated output 👇🏻</div>
+
+    <div id="output" class="container"></div>
+
+    <script src="app.js" type=text/javascript> </script> </body> </html>
